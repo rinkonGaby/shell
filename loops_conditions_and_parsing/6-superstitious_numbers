@@ -25,6 +25,5 @@ do
 	    echo $COUNTER
 	    ;;
     esac
-
-    COUNTER+=1
+    COUNTER=$((COUNTER+=1))
 done
